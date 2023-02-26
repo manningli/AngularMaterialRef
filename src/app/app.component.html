@@ -1,11 +1,15 @@
 <mat-drawer-container class="container" autosize>
   <mat-drawer #drawer class="sidenav">
-    <p>Menu</p>
+    <button routerLink="/customers" color="primary" mat-button>Customers</button>
+    <button routerLink="/orders" color="primary" mat-button>Orders</button>
+    <button routerLink="/messages" color="primary" mat-button>Messages</button>
   </mat-drawer>
 
   <div class="sidenav-content">
     <button mat-icon-button (click)="drawer.toggle()">
       <mat-icon>menu</mat-icon>
     </button>
+
+    <router-outlet></router-outlet>
   </div>
 </mat-drawer-container>
