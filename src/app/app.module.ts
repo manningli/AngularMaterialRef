@@ -8,6 +8,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatMenuModule } from '@angular/material/menu';
 
 @NgModule({
   declarations: [AppComponent],
@@ -19,6 +20,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     // Angular Material Modules
     MatButtonModule,
     MatIconModule,
+    MatMenuModule,
     MatSidenavModule,
     MatToolbarModule,
   ],
