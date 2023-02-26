@@ -1,0 +1,17 @@
+.mat-card {
+  max-width: 300px;
+  margin: auto;
+}
+
+.example-header-image {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Royal_Crown_of_Denmark.svg/1200px-Royal_Crown_of_Denmark.svg.png");
+  background-size: cover;
+}
+
+.mat-card-actions {
+  display: flex;
+}
+
+.mat-card-actions .flex-spacer {
+  width: 100%;
+}
